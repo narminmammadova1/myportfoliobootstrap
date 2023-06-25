@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Myportfolio</title>
+    <title>contact</title>
     <link rel="stylesheet" href="./css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous"></head>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
@@ -12,11 +12,11 @@
 
     <header >
        
-        <div class=" border-2 border-bottom bg-white ">
+        <div class=" border-2 border-bottom bg-white  ">
             <div class="card-header w-100 row p-0 bg-white" >
-          <div class="col-md-1 ms-5" ></div>
-                <div class=" col-md-7" >
-            <div style=" width:250px;height:90px; background-color:#4aaaa5;" class="text-light text-center fs-2 p-3 ms-2 fw-bold "> Your Name</div>
+          <div class="col-md-1 ms-4"></div>
+                <div class=" col-md-7 me-5" >
+            <div style=" width:250px;height:90px; background-color:#4aaaa5;" class="text-light text-center fs-2 p-3 ms-4 fw-bold"> Your Name</div>
             </div>
            <ul class="nav  col-md-3 p-3">
            
@@ -34,15 +34,27 @@
     </header>
     <main class="container">
 
-        <div class=" row bg-white m-5 p-4 ps-4 " style="float: left;max-width: 638px;" >
-            <h2 style="color: #4aaaa5;" class="border-3 border-bottom p-4 ps-3 fs-3 fw-bold" >About Me</h2>
-          <img width="200px" height="150px" class="col-5"  src="./images/cat.jpg" alt=""  style="float: left;">
-            <p style="color: #777;" class="col-7 fs-5" style="float: left;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. deleniti dignissimos iusto, labore fugit nisi autem suscipit reprehenderit nulla dolores vel. </p>
-        <p style="color: #777;" class="col-12  fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel fuga eligendi dolorum quae cupiditate, ullam quia beatae laborum natus ut itaque adipisci aut nemo sunt veritatis autem obcaecati animi nulla?</p>
-          </div>
+        <div class=" row bg-white m-5 p-3 ps-4 " style="float: left; max-width:638px;" >
+            <h2 style="color: #4aaaa5;" class="border-3 border-bottom p-4 ps-3 fw-bold" >Contact</h2>
+            <form>
+                <div style="color: #666;" class="mb-2 mt-3 fs-5">
+                    <label for="exampleInputEmail1" class="form-label">Name</label>
+                    <input type="text" placeholder="John Smith" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" style=" border-radius: 0;">
+                  <label for="exampleInputemail1" class="form-label mb-2 mt-3">Email</label>
+                  <input type="email" placeholder="example@gmail.com" class="form-control mb-4" id="exampleInputemail1"   style=" border-radius: 0;">
+                  <label for="">Message</label>
+                  <textarea name="" id="" cols="54" rows="6"></textarea>
+                
+                </div>
+                <div class="mb-3">
+               
+                </div>
+                <button type="submit" class="btn pb-2 pb-2 ps-4 pe-4" style="background-color: #4aaaa5; color: white; border: none; border-radius: 0px;">Submit</button>
+              </form>
+        </div>
         <div>
             <div class="card  mt-5 float-start" style="max-width: 18rem;">
-                <div class=" bg-transparent text-center"> <h4 style="color: #4aaaa5;" class=" border-2 p-3 border-bottom fs-4 fw-bold">Connect with me</h4></div>
+                <div class=" bg-transparent text-center"> <h4 style="color: #4aaaa5;" class=" border-2 p-3 border-bottom fw-bold">Connect with me</h4></div>
 
                 <div class="container pt-4 pb-5 ps-4 pe-5">              
 <img width="62px" height="62px" src="./images/github-128.png" alt="">
@@ -54,14 +66,13 @@
               </div>
         </div>
     
-
     </main>
    <footer>
     <div class="card w-100" style="background-color: #666;">
       <!-- <div class="card-header m">
         Quote
       </div> -->
-      <div class="card-body"  style="border-top: 8px solid #4aaaa5;">
+      <div class="card-body"  style="border-top: 8px solid #4aaaa5; ">
         <blockquote class="blockquote p-2 text-center text-light fs-6">
           <p>Copyright © 2017 Your Name</p>
 
